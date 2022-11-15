@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+
+<section class="container">
+    <a href="#" class="logo">
+        <img src="images/homeWorks.png" alt="logo">
+    </a>
+
+<section class="layout">
+
+<article class="part-order">
+    <h1>Get your free account</h1>
+    <div class="part-order_text">
+            Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+    </div>
+
+    <form action="https://webhook.site/e9f9d2b8-0b20-40b8-a082-f78485ab598e" method="post" id="order">
+        <div class="part-order_action">
+            <p>Full Name</p>
+            <input type="text" name="Full Name" value="Antony Swarowski" id="nameInput">
+            <div class="error">Full Name должен начинаться с заглавной буквы и может содержать только буквы и пробел</div>
+        </div>
+
+        <div class="part-order_action">
+            <p>Your username</p>
+            <input type="text" name="Your username">
+            <div class="error">Your username Может содержать только буквы, цифры, символ подчеркивания и тире</div>
+        </div>
+        <div class="part-order_action">
+            <p>E-mail</p>
+            <input type="email" name="mail">
+            <div class="error">Заполните поле E-mail в формате <span>ivan@gmail.com</span></div>
+        </div>
+        <div class="part-order_action">
+            <p>Password</p>
+            <input type="password" name="password">
+            <div class="error">
+                Минимальное количество символов 8, должно быть:
+                - одна буква в верхнем регистре
+                - одна цифра
+                - один спецсимвол
+            </div>
+        </div>
+        <div class="part-order_action">
+            <p>Repeat Password</p>
+            <input type="password">
+            <div class="error">Пароли должны быть идентичны</div>
+        </div>
+        <label for="check">
+        <input type="checkbox" id="check" class="check" checked> Agree to our Terms of Service and Privacy Statement
+        </label>
+        <div class="part-order_button">
+            <button type="button" class="btn">
+                Sign Up
+            </button>
+        </div>
+    </form>
+
+    <div class="account">
+        <a href="#">Already have an account?</a>
+    </div>
+</article>
+
+<article class="part-image">
+    <div class="part-image_rocket">
+        <img src="images/rocket.png" alt="">
+    </div>
+</article>
+</section>
+
+</section>
+
+<div class="modal" id="modal__1">
+    <div class="modal__content">
+        <button class="modal__close-button">OK</button>
+        <div class="modal__message">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</div>
+    </div>
+</div>
+
+
+<script src="scripts/jquery-3.6.0.min.js"></script>
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
